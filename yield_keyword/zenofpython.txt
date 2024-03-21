@@ -1,0 +1,8 @@
+This code defines a generator function fetch_lines() that
+yields lines from a file specified by the filename argument.
+The purpose of using a generator function here is to
+read lines from the file lazily, one at a time,
+rather than loading the entire file into memory at once.
+This approach is memory-efficient, especially for large files,
+as it avoids loading the entire file into memory,
+which can lead to memory consumption issues for very large files.
